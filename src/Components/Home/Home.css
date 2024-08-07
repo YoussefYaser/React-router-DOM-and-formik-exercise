@@ -1,0 +1,11 @@
+.home-caption img{
+    width: 300px;
+    animation-name: img-rotate;
+    animation-duration: 1s;
+}
+
+@keyframes img-rotate{
+    100%{
+        transform:  rotatey(360deg);
+    }
+}

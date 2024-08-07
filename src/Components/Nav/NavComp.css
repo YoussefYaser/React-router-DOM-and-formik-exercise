@@ -1,0 +1,52 @@
+nav{
+    transition: 0.3s;
+}
+
+.navbar-nav {
+    --bs-nav-link-color: white !important;
+    --bs-nav-link-hover-color: #fff !important;
+}
+
+@media(max-width : 991px){
+    .nav-link{
+        transition: 0.3s !important;
+    }
+    
+    .nav-link:hover{
+        padding-left: 10px;
+        --bs-nav-link-hover-color: #5fdec4 !important;
+    }
+    
+    .nav-link.active{
+        padding-left: 10px !important;
+        color: #5fdec4 !important;
+    }
+}
+
+@media(min-width : 992px){
+    
+    .nav-link:hover, 
+    .nav-link.active{
+        background-color: #1ABC9C !important;
+    }
+}
+
+.navbar-brand{
+
+    animation-name: letter;
+    animation-duration: 1s;
+
+}
+
+@keyframes letter{
+    0%{
+        letter-spacing: 0px;
+    }
+    50%{
+        letter-spacing: 1px;
+    }
+    100%{
+        letter-spacing: 0px;
+    }
+
+}

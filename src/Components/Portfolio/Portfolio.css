@@ -1,0 +1,39 @@
+.portfolio .overlay{
+    font-size: 8rem;
+    opacity: 0;
+    background-color: #1abc9cbe;
+    transition: 0.5s;
+}
+
+.portfolio .inner:hover .overlay{
+    opacity: 1;
+    cursor: pointer;
+}
+
+.portfolio .special-wrap{
+    color: #2C3E50;
+}
+
+.portfolio .special-wrap::before{
+    border: 2px solid #2C3E50 !important;
+}
+
+.portfolio h2{
+    color: #2C3E50;
+}
+
+.portfolio .inner{
+    animation-name: card;
+    animation-duration: 1s;
+}
+
+@keyframes card{
+    0%{
+        opacity: 0;
+        transform: scale(0);
+    }
+    100%{
+        opacity: 1;
+        transform:  scale(1);
+    }
+}

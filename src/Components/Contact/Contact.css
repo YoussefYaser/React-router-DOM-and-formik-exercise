@@ -1,0 +1,30 @@
+.contact .special-wrap{
+    color: #2C3E50;
+}
+
+.contact .special-wrap::before{
+    border: 2px solid #2C3E50 !important;
+}
+
+.contact h2{
+    color: #2C3E50;
+}
+
+.contact form button{
+    background-color: #1ABC9C;
+    color: white;
+}
+
+.contact form button:hover{
+    background-color: #4fdabe;
+    color: #fff;
+}
+
+.contact form .form-control{
+    border-color: #2c3e5038 !important;
+}
+
+.form-control:focus {
+    
+    box-shadow: 0 0 0 .25rem #3972a77c !important;
+}

@@ -1,0 +1,5 @@
+@media(max-width : 991px){
+    .about .row{
+        width: 100% !important;
+    }
+}

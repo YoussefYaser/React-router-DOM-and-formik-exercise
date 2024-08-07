@@ -1,0 +1,24 @@
+footer > div:nth-of-type(2){
+    background-color: #19232d;
+}
+
+footer li{
+    transition: 0.3s;
+}
+
+footer li:hover{
+    background-color: #fff;
+    color: #1ABC9C;
+    cursor: pointer;
+}
+
+footer .row{
+    opacity: 0;
+    transform: translateY(50px);
+    transition: 0.5s;
+}
+
+footer .row.show-row{
+    opacity: 1;
+    transform: translateY(0px);
+}
